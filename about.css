@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
+
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  z-index: 1;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.navbar .logo-img {
+  width: 50px;
+  height: auto;
+  margin-left: 90px;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  margin-right: 680px;
+}
+
+.navbar .links {
+  list-style: none;
+  display: flex;
+  margin-right: 100px;
+}
+
+.navbar .links li {
+  margin-right: 35px;
+}
+
+.navbar .links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar .links a:hover {
+  border-bottom: 4px solid blue;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+body {
+  background-color: #eadbc8;
+}
+
+.content-1 {
+  background-color: beige;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.image-container {
+  width: 40%;
+  height: auto;
+  margin-right: 20px;
+  padding: 50px;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.text-container {
+  width: 60%;
+}
+
+.text-container p.bold {
+  font-size: 52px;
+  font-weight: 800;
+  margin-left: 250px;
+  line-height: 1.3;
+  margin-bottom: 20px;
+}
+
+.text-container p {
+  font-size: 24px;
+  margin-left: 180px;
+  word-spacing: 5px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.container-2 {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  margin-top: 50px;
+  background-color: #f5d0a0;
+}
+
+.person-1 {
+  font-size: 80px;
+  font-weight: 900;
+  margin-left: 20px;
+}
+
+.tours-1 {
+  font-size: 80px;
+  font-weight: 900;
+  margin-left: 60px;
+}
+.packages-1 {
+  font-size: 80px;
+  font-weight: 900;
+  margin-left: 100px;
+}
+
+.person p,
+.tours p,
+.packages p {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.container-3 {
+  display: flex;
+  gap: 10%;
+}
+
+.container-3 h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+.story {
+  width: 40%;
+  padding: 20px;
+  font-size: 21px;
+  line-height: 1.7;
+  margin-left: 20px;
+}
+
+.milestone {
+  width: 40%;
+}
+
+.milestone p {
+  text-align: center;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.milestone-move {
+  font-weight: 600;
+  margin-left: 100px;
+}
+
+.small {
+  width: 600px;
+}
+
+.companies p {
+  width: 60%;
+  font-size: 21px;
+  text-align: center;
+  margin-left: 300px;
+  line-height: 1.6;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img {
+  width: 180px;
+  height: auto;
+}
+
+footer {
+  background-color: #333;
+  margin-top: 25px;
+}
+
+.content {
+  display: flex;
+}
+
+.info p {
+  width: 45%;
+  color: #fff;
+  padding: 30px;
+  font-size: 21px;
+  line-height: 1.5;
+  word-spacing: 5px;
+}
+
+.info a {
+  color: rgb(18, 247, 247);
+  text-decoration: none;
+}
+
+.info a:hover {
+  text-decoration: underline;
+}
+
+.footer-logo {
+  margin-top: 58px;
+}
+
+.logo-span {
+  color: #fff;
+  font-size: 21px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+.payment-logo {
+  width: 300px;
+  margin-right: 80px;
+}

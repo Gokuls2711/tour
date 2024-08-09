@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <img class="logo-img" src="img/tour.logo.png" alt="logo" />
+        <a href="#" class="logo">Apex Tourism</a>
+        <ul class="links">
+          <li><a href="landing.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="theme.html">Theme</a></li>
+          <li><a href="destination.html">Destinations</a></li>
+          <li><a href="packages.html">Packages</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <h1>Contact Us</h1>
+
+    <div class="container">
+      <div class="content-1">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d250482.53397388905!2d77.76809284999999!3d11.203197699999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba96f46762f4671%3A0xd97da6e3d9c7f75e!2sErode%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1722858599264!5m2!1sen!2sin"
+          width="800"
+          height="1350"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+      <div class="content-2">
+        <h3>Registered Office:</h3>
+        <p class="office">
+          11,Spark Road, <br />
+          NMS Compound, <br />
+          Erode-638115. <br />
+          Phone: 9898989898
+        </p>
+        <h3 class="work-head">Work Office:</h3>
+        <p class="work">
+          Metro Station, <br />
+          Plot No.2, First Floor,<br />
+          Chennai- 600001 <br />
+          Phone: 9797979797
+        </p>
+        <hr />
+        <form action="">
+          <label for="name">Name <span>*</span></label> <br />
+          <input type="text" id="name" name="name" required /> <br />
+          <br /><br />
+          <label for="mobile no.">Mobile No. <span>*</span></label> <br />
+          <input
+            type="tel"
+            id="mobile no."
+            name="mobile no."
+            placeholder="+91"
+            required
+          />
+          <br />
+          <br /><br />
+          <label for="email">Email <span>*</span></label> <br />
+          <input type="email" id="email" name="email" required />
+          <br /><br /><br />
+
+          <label for="enquiry"
+            >You're contacting us regarding<span>*</span></label
+          >
+          <br /><br />
+          <select name="contact" id="contact" required>
+            <option value="trip">Trip Enquiry</option>
+            <option value="brochure">Tour Brochure</option>
+            <option value="sponsor">Sponsorship</option>
+            <option value="other">Other</option>
+          </select>
+          <br /><br /><br />
+          <label for="comment">Comment or Message <span>*</span></label>
+          <textarea
+            id="comment"
+            name="comment"
+            rows="5"
+            cols="20"
+            mandatory
+          ></textarea>
+
+          <button class="button" onclick="alert('Thank you for submitting!')">
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+    <h1 class="location">We are located at...</h1>
+    <div class="container-1">
+      <img class="img" src="img/kerala.png" alt="kerala" />
+      <img class="img" src="img/manali.png" alt="manali" />
+      <img class="img" src="img/ladak.png" alt="ladak" />
+      <img class="img" src="img/karnataka.png" alt="karnataka" />
+    </div>
+    <div class="heading">
+      <p class="text">Kerala</p>
+      <p class="text">Manali</p>
+      <p class="text">Ladak</p>
+      <p class="text">Karnataka</p>
+    </div>
+  </body>
+  <footer>
+    <div class="content">
+      <div class="info">
+        <p>
+          Looking to explore the world? We can help you with just what you've
+          been looking for. Call/Whatsapp our travel agents to gain the best
+          experience there is on <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a href="+91-9898989898">+91-9898989898</a>
+        </p>
+      </div>
+      <div class="footer-logo">
+        <span class="logo-span">We Accept: </span> <br /><br />
+        <img src="img/payment.png" alt="payment-logo" class="payment-logo" />
+      </div>
+    </div>
+  </footer>
+</html>

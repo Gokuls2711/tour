@@ -1,0 +1,193 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
+
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  z-index: 1;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.navbar .logo-img {
+  width: 50px;
+  height: auto;
+  margin-left: 90px;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  margin-right: 620px;
+}
+
+.navbar .links {
+  list-style: none;
+  display: flex;
+  margin-right: 100px;
+}
+
+.navbar .links li {
+  margin-right: 35px;
+}
+
+.navbar .links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar .links a:hover {
+  border-bottom: 4px solid blue;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.image {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  position: relative;
+  cursor: pointer;
+}
+
+.content-1 {
+  position: absolute;
+  top: 200px;
+  left: 200px;
+  line-height: 1.6;
+  font-size: 78px;
+  font-weight: 900;
+  color: #940665f1;
+  text-transform: uppercase;
+}
+
+.content-p {
+  font-size: 23px;
+  text-align: justify;
+  text-transform: none;
+  color: #0a0000;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 600;
+  color: brown;
+  margin: 35px;
+  padding: 10px;
+}
+
+p {
+  font-size: 22px;
+  text-align: justify;
+  padding: 15px;
+  word-spacing: 5px;
+  line-height: 1.4;
+}
+
+h2 {
+  text-align: center;
+  font-size: 29px;
+}
+
+.list {
+  font-size: 26px;
+  text-decoration: underline;
+}
+
+ol {
+  font-size: 23px;
+  line-height: 1.4;
+  margin-left: 44px;
+}
+
+.holiday a {
+  text-decoration: none;
+  color: #0a0000;
+}
+
+.holiday a:hover {
+  color: rgb(207, 40, 40);
+}
+
+section {
+  background-color: beige;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 800;
+  margin: 50px 30px;
+  padding: 20px;
+}
+
+.image-1 {
+  width: 1000px;
+  height: 700px;
+  padding-left: 50px;
+}
+
+.image-1:hover {
+  filter: brightness(130%);
+}
+
+p {
+  text-align: justify;
+}
+
+footer {
+  background-color: #333;
+  margin-top: 25px;
+}
+
+.content {
+  display: flex;
+}
+
+.info p {
+  width: 45%;
+  color: #fff;
+  padding: 30px;
+  font-size: 21px;
+  line-height: 1.5;
+  word-spacing: 5px;
+  text-align: justify;
+}
+
+.info a {
+  color: rgb(18, 247, 247);
+  text-decoration: none;
+}
+
+.info a:hover {
+  text-decoration: underline;
+}
+
+.footer-logo {
+  margin-top: 50px;
+  text-align: left;
+}
+
+.logo-span {
+  color: #fff;
+  font-size: 21px;
+  margin-top: 10%;
+  margin-right: 50px;
+  text-align: center;
+}
+
+.payment-logo {
+  width: 300px;
+  height: auto;
+  margin-right: 120px;
+}
