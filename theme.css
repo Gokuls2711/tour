@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
+
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  z-index: 1;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.navbar .logo-img {
+  width: 50px;
+  height: auto;
+  margin-left: 90px;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  margin-right: 680px;
+}
+
+.navbar .links {
+  list-style: none;
+  display: flex;
+  margin-right: 100px;
+}
+
+.navbar .links li {
+  margin-right: 35px;
+}
+
+.navbar .links a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar .links a:hover {
+  border-bottom: 4px solid blue;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+  cursor: pointer;
+  margin: 10px;
+  border-radius: 10px;
+  transition: 300ms;
+}
+
+.container-1,
+.container-2,
+.container-3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.heading-1,
+.heading-2,
+.heading-3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.text {
+  font-size: 35px;
+  font-weight: 900;
+  margin: 10px 0;
+}
+
+img:hover {
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+}
+
+footer {
+  background-color: #333;
+  margin-top: 25px;
+}
+
+.content {
+  display: flex;
+}
+
+.info p {
+  width: 45%;
+  color: #fff;
+  padding: 30px;
+  font-size: 21px;
+  line-height: 1.5;
+  word-spacing: 5px;
+  text-align: justify;
+}
+
+.info a {
+  color: rgb(18, 247, 247);
+  text-decoration: none;
+}
+
+.info a:hover {
+  text-decoration: underline;
+}
+
+.footer-logo {
+  margin-top: 50px;
+  text-align: left;
+}
+
+.logo-span {
+  color: #fff;
+  font-size: 21px;
+  margin-top: 10%;
+  margin-right: 50px;
+  text-align: center;
+}
+
+.payment-logo {
+  width: 300px;
+  height: auto;
+  margin-right: 120px;
+}
